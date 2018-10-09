@@ -1,0 +1,57 @@
+html {
+  background-color: #61DAFB;
+}
+#app {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  font-size: 28px;
+  width: 400px;
+  margin: 0 auto;
+}
+.display {
+  grid-column: 1/5;
+  background-color: #333;
+  color: white;
+  text-align: center;
+
+}
+
+#heading {
+  color: #000;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.zero {
+  grid-column: 1/3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #f2f2f2;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.btn-number:hover {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+.operator {
+  background-color: orange;
+  cursor: pointer;
+}
+
+
+.me {
+  font-size: 18px;
+  color: #000;
+}
+
+a:hover {
+  cursor: pointer;
+}
